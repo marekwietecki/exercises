@@ -1,1 +1,1 @@
-# ocena-ze-sprawdzianu
+# exercises

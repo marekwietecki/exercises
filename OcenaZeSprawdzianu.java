@@ -9,9 +9,10 @@ public class Main {
         System.out.println("Podaj liczbę punktów zdobytych na sprawdzianie: ");
         int a;
         a=skaner.nextInt();
-        if(a<0||a>100){
+        while(a<0||a>100){
             System.out.println("Niepoprawna liczba punktów");
-        } else if(a>=0&&a<=50) {
+            a=skaner.nextInt();
+        } if(a>=0&&a<=50) {
             System.out.println("Twoja ocena to: 2");
         } else if(a>50&&a<70) {
             System.out.println("Twoja ocena to: 3");

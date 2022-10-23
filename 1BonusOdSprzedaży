@@ -1,0 +1,20 @@
+/* Obliczający zarobki sprzedawcy pewnego produktu. 
+Jeżeli w danym okresie rozliczeniowym sprzedawca sprzedał więcej niż 50 sztuk produktu, 
+to otrzymuje 30 zł od każdej sprzedanej sztuki, a jeżeli sprzedał mniej, to otrzymuje 20 zł od każdej sztuki. 
+Daną wejściową do programu powinna być ilość sprzedanych sztuk towaru w danym okresie rozliczeniowym. */
+
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner skaner=new Scanner(System.in);
+        int a;
+        System.out.println("Type number of sold product pieces: ");
+        a=skaner.nextInt();
+        if(a>50){
+            System.out.println("Seller earns: " + a*30);
+        } else {
+            System.out.println("Seller earns: " + a*20);
+        }
+    }
+}

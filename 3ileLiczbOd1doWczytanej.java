@@ -1,3 +1,4 @@
+/*2. Wczytaćliczbęcałkowitąn i obliczyćsumęliczb całkowitych od 1 do n przy uzyciu petli while.*/
 import java.util.Scanner;
 public class Main {
 

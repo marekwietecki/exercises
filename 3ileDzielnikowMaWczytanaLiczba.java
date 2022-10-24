@@ -1,3 +1,4 @@
+/*3. Wczytaćliczbęcałkowitąi obliczyćilośćjej dzienników przy uyciu ptli while.*/
 import java.util.Scanner;
 public class Main {
 

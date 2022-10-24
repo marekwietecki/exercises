@@ -1,3 +1,4 @@
+/*1. Wypisaćna standardowym wyjściu liczby całkowite od 1 do 1000 przy użyciu pętli while.*/
 import java.util.Scanner;
 public class Main {
 
